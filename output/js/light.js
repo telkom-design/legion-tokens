@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Jan 2022 09:04:50 GMT
+ * Generated on Fri, 21 Jan 2022 09:06:03 GMT
  */
 
 export const fgDefault = "#000000";
