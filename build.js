@@ -49,7 +49,7 @@ function getStyleDictionaryConfig(theme) {
           }]
       },
       "theme-ui": {
-        "transforms": ["sizes/px"],
+        "transforms": ["attribute/cti", "sizes/px"],
         "buildPath": `output/js/`,
         "files": [{
             "destination": `${theme}.js`,
