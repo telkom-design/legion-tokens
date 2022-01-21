@@ -32,13 +32,21 @@ function getStyleDictionaryConfig(theme) {
     "platforms": {
       "web": {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `output/`,
+        "buildPath": `output/css/`,
         "files": [{
             "destination": `${theme}.css`,
             "format": "css/variables",
             "selector": `.${theme}-theme`
           }]
-      }
+      },
+      "theme-ui": {
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
+        "buildPath": `output/js/`,
+        "files": [{
+            "destination": `${theme}.js`,
+            "format": "javascript/object",
+          }]
+      },
     }
   };
 }
