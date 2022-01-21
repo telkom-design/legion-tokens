@@ -40,7 +40,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/camel", "sizes/px"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
         "buildPath": `output/css/`,
         "files": [{
             "destination": `${theme}.css`,
@@ -49,7 +49,7 @@ function getStyleDictionaryConfig(theme) {
           }]
       },
       "theme-ui": {
-        "transforms": ["attribute/cti", "sizes/px"],
+        "transforms": ["attribute/cti", "name/cti/camel", "sizes/px"],
         "buildPath": `output/js/`,
         "files": [{
             "destination": `${theme}.js`,
