@@ -40,7 +40,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
+        "transforms": ["attribute/cti", "name/cti/camel", "sizes/px"],
         "buildPath": `output/css/`,
         "files": [{
             "destination": `${theme}.css`,
