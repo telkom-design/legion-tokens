@@ -63,6 +63,8 @@ console.log('Build started...');
     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
 
     StyleDictionary.buildPlatform('web');
+    StyleDictionary.buildPlatform('theme-ui');
+
 
     console.log('\nEnd processing');
 })
