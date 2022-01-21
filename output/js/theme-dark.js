@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Jan 2022 08:20:25 GMT
+ * Generated on Fri, 21 Jan 2022 08:21:58 GMT
  */
 
 export const border-width-button-ghost = "4px";
@@ -8,7 +8,7 @@ export const border-radius-button-ghost = "8px";
 export const border-radius-card = "4px";
 export const font-sizes-card-title = "13.6px";
 export const font-sizes-card-content = "10.4px";
-export const buttons-primary-background-color = "#FFFF00";
+export const buttons-solid-background-color = "#FFFF00";
 export const fg-default = "#ffffff";
 export const fg-muted = "#e2e8f0";
 export const fg-subtle = "#a0aec0";

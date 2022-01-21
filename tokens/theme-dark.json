@@ -32,7 +32,7 @@
     }
   },
   "buttons": {
-    "primary": {
+    "solid": {
       "backgroundColor": {
         "value": "#FFFF00",
         "type": "color"
