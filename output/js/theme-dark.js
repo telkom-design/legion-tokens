@@ -1,13 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Jan 2022 08:29:29 GMT
+ * Generated on Fri, 21 Jan 2022 08:30:54 GMT
  */
 
-export const ghost = 4;
-export const ghost = 8;
-export const card = 4;
-export const title = 13.6;
-export const content = 10.4;
+export const ghost = "4px";
+export const ghost = "8px";
+export const card = "4px";
+export const title = "13.6px";
+export const content = "10.4px";
 export const backgroundColor = "#FFFF00";
 export const default = "#ffffff";
 export const muted = "#e2e8f0";

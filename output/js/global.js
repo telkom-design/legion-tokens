@@ -1,28 +1,28 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Jan 2022 08:29:29 GMT
+ * Generated on Fri, 21 Jan 2022 08:30:54 GMT
  */
 
-export const scale = 2;
-export const xs = 4;
-export const sm = 8;
-export const md = 16;
-export const lg = 32;
-export const xl = 64;
-export const scale = 1.5;
-export const xs = 4;
-export const sm = 6;
-export const md = 9;
-export const lg = 13.5;
-export const xl = 20.25;
-export const sm = 4;
-export const lg = 8;
-export const xl = 16;
-export const none = 0;
-export const xs = 1;
-export const sm = 2;
-export const md = 4;
-export const lg = 8;
+export const scale = "2px";
+export const xs = "4px";
+export const sm = "8px";
+export const md = "16px";
+export const lg = "32px";
+export const xl = "64px";
+export const scale = "1.5px";
+export const xs = "4px";
+export const sm = "6px";
+export const md = "9px";
+export const lg = "13.5px";
+export const xl = "20.25px";
+export const sm = "4px";
+export const lg = "8px";
+export const xl = "16px";
+export const none = "0px";
+export const xs = "1px";
+export const sm = "2px";
+export const md = "4px";
+export const lg = "8px";
 export const black = "#000000";
 export const white = "#ffffff";
 export const 100 = "#f7fafc";
@@ -131,12 +131,12 @@ export const headingRegular = "Regular";
 export const headingBold = "Bold";
 export const bodyRegular = "Regular";
 export const bodyBold = "Bold";
-export const h1 = 48.829;
-export const h2 = 39.063;
-export const h3 = 31.25;
-export const h4 = 25;
-export const h5 = 20;
-export const h6 = 16;
-export const body = 16;
-export const sm = 13.6;
-export const xs = 10.4;
+export const h1 = "48.829px";
+export const h2 = "39.063px";
+export const h3 = "31.25px";
+export const h4 = "25px";
+export const h5 = "20px";
+export const h6 = "16px";
+export const body = "16px";
+export const sm = "13.6px";
+export const xs = "10.4px";

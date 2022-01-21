@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Jan 2022 08:29:29 GMT
+ * Generated on Fri, 21 Jan 2022 08:30:54 GMT
  */
 
 export const default = "#ffffff";
