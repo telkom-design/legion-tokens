@@ -1,19 +1,19 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Jan 2022 08:21:58 GMT
+ * Generated on Fri, 21 Jan 2022 08:29:29 GMT
  */
 
-export const border-width-button-ghost = "4px";
-export const border-radius-button-ghost = "8px";
-export const border-radius-card = "4px";
-export const font-sizes-card-title = "13.6px";
-export const font-sizes-card-content = "10.4px";
-export const buttons-solid-background-color = "#FFFF00";
-export const fg-default = "#ffffff";
-export const fg-muted = "#e2e8f0";
-export const fg-subtle = "#a0aec0";
-export const bg-default = "#1a202c";
-export const bg-muted = "#4a5568";
-export const bg-subtle = "#718096";
-export const accent-default = "#5a67d8";
-export const shadows-default = "#f7fafc";
+export const ghost = 4;
+export const ghost = 8;
+export const card = 4;
+export const title = 13.6;
+export const content = 10.4;
+export const backgroundColor = "#FFFF00";
+export const default = "#ffffff";
+export const muted = "#e2e8f0";
+export const subtle = "#a0aec0";
+export const default = "#1a202c";
+export const muted = "#4a5568";
+export const subtle = "#718096";
+export const default = "#5a67d8";
+export const default = "#f7fafc";
