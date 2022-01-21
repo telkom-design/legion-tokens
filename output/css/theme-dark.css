@@ -1,12 +1,10 @@
 .theme-dark-theme {
-          --button-primary-background: #5a67d8;
-  --button-ghost-outline: #ffffff;
-  --button-ghost-text: #ffffff;
-  --border-width-button-ghost: 4px;
+          --border-width-button-ghost: 4px;
   --border-radius-button-ghost: 8px;
   --border-radius-card: 4px;
   --font-sizes-card-title: 13.6px;
   --font-sizes-card-content: 10.4px;
+  --buttons-primary-background-color: #FFFF00;
   --fg-default: #ffffff;
   --fg-muted: #e2e8f0;
   --fg-subtle: #a0aec0;

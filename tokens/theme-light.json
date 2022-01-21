@@ -1,22 +1,4 @@
 {
-  "button": {
-    "primary": {
-      "background": {
-        "value": "#7f9cf5",
-        "type": "color"
-      }
-    },
-    "ghost": {
-      "outline": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "text": {
-        "value": "#000000",
-        "type": "color"
-      }
-    }
-  },
   "borderWidth": {
     "button": {
       "ghost": {
@@ -46,6 +28,14 @@
       "content": {
         "value": 10.4,
         "type": "fontSizes"
+      }
+    }
+  },
+  "buttons": {
+    "primary": {
+      "backgroundColor": {
+        "value": "#FFFF00",
+        "type": "color"
       }
     }
   },
