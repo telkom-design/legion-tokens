@@ -1,0 +1,20 @@
+name: Transform Tokens
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.4.0
+      - run: npm install
+      - run: npx token-transformer tokens.json tokens/global.json global
+      - run: npx token-transformer tokens.json tokens/light.json global,light global
+      - run: npx token-transformer tokens.json tokens/dark.json global,dark global
+      - run: npx token-transformer tokens.json tokens/theme-light.json global,light,theme global
+      - run: npx token-transformer tokens.json tokens/theme-dark.json global,dark,theme global
+      - run: node build.js
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "build: transform tokens"
