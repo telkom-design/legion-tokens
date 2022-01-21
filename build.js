@@ -11,6 +11,15 @@ StyleDictionaryPackage.registerFormat({
     }
   });  
 
+StyleDictionaryPackage.registerFormat({
+  name: 'theme-ui/theme',
+  formatter: function(dict){
+    return `const ${thisSelector} = {
+
+    }`
+  }
+})
+
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
@@ -40,7 +49,7 @@ function getStyleDictionaryConfig(theme) {
           }]
       },
       "theme-ui": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
+        "transforms": ["sizes/px"],
         "buildPath": `output/js/`,
         "files": [{
             "destination": `${theme}.js`,
