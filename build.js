@@ -44,7 +44,7 @@ function getStyleDictionaryConfig(theme) {
         "buildPath": `output/js/`,
         "files": [{
             "destination": `${theme}.js`,
-            "format": "javascript/object",
+            "format": "javascript/es6",
           }]
       },
     }
