@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Jan 2022 09:06:03 GMT
+ * Generated on Fri, 21 Jan 2022 09:15:06 GMT
  */
 
 export const borderWidthButtonGhost = "4px";
@@ -8,7 +8,7 @@ export const borderRadiusButtonGhost = "8px";
 export const borderRadiusCard = "4px";
 export const fontSizesCardTitle = "13.6px";
 export const fontSizesCardContent = "10.4px";
-export const buttonsSolidBackgroundColor = "#00FF00";
+export const buttonsSolidBackgroundColor = "#FFFF00";
 export const fgDefault = "#ffffff";
 export const fgMuted = "#e2e8f0";
 export const fgSubtle = "#a0aec0";

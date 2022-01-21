@@ -34,7 +34,7 @@
   "buttons": {
     "solid": {
       "backgroundColor": {
-        "value": "#00FF00",
+        "value": "#FFFF00",
         "type": "color"
       }
     }
