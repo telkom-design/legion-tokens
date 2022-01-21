@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Jan 2022 08:30:54 GMT
+ * Generated on Fri, 21 Jan 2022 08:32:24 GMT
  */
 
 export const scale = "2px";
