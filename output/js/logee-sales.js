@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 24 Jan 2022 20:16:41 GMT
+ * Generated on Mon, 24 Jan 2022 20:19:05 GMT
  */
 
 export const buttonsLgPaddingLeft = 16;
