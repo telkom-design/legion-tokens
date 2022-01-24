@@ -12,7 +12,8 @@ jobs:
       - run: npx token-transformer tokens.json tokens/foundation.json foundation
       - run: npx token-transformer tokens.json tokens/logee-sales.json foundation,logee-sales foundation
       - run: node build.js
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Setup Node.js environment
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "build: transform tokens"
       - run: |
