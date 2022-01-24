@@ -1,0 +1,26 @@
+.logee-sales-theme {
+          --buttons-lg-padding-left: 16;
+  --buttons-lg-padding-right: 16;
+  --buttons-lg-padding-top: 8;
+  --buttons-lg-padding-bottom: 8;
+  --buttons-lg-font-size: 16;
+  --buttons-sm-padding-left: 8;
+  --buttons-sm-padding-right: 8;
+  --buttons-sm-padding-top: 4;
+  --buttons-sm-padding-bottom: 4;
+  --buttons-sm-font-size: 13.6;
+  --buttons-solid-font-family: Roboto;
+  --buttons-solid-background-color: #4299e1;
+  --buttons-solid-hover-background-color: #3182ce;
+  --buttons-solid-active-background-color: #2b6cb0;
+  --buttons-solid-focus-background-color: #4299e1;
+  --buttons-solid-disabled-background-color: #e2e8f0;
+  --buttons-solid-disabled-color: #000;
+  --buttons-soft-font-family: Roboto;
+  --buttons-soft-background-color: #4299e1;
+  --buttons-soft-hover-background-color: #3182ce;
+  --buttons-soft-active-background-color: #2b6cb0;
+  --buttons-soft-focus-background-color: #4299e1;
+  --buttons-soft-disabled-background-color: #e2e8f0;
+  --buttons-soft-disabled-color: #000;
+      }
