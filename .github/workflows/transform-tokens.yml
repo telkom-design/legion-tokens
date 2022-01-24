@@ -19,6 +19,6 @@ jobs:
       - name: Invoke workflow in another repo
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: Logee Sales Theme
+          workflow: build-from-token
           repo: fahrulseptiana/theme-logee-sales
           token: ${{ secrets.PAT_TOKEN }}
