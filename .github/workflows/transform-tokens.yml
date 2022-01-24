@@ -9,11 +9,8 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.4.0
       - run: npm install
-      - run: npx token-transformer tokens.json tokens/global.json global
-      - run: npx token-transformer tokens.json tokens/light.json global,light global
-      - run: npx token-transformer tokens.json tokens/dark.json global,dark global
-      - run: npx token-transformer tokens.json tokens/theme-light.json global,light,theme global
-      - run: npx token-transformer tokens.json tokens/theme-dark.json global,dark,theme global
+      - run: npx token-transformer tokens.json tokens/foundation.json foundation
+      - run: npx token-transformer tokens.json tokens/logee-sales.json foundation,logee-sales foundation
       - run: node build.js
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
