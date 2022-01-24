@@ -3,7 +3,6 @@ on: [push]
 
 jobs:
   build:
-    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,5 +16,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "build: transform tokens"
+      - name: Trigger Dispatches
       - run: |
       curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/fahrulseptiana/theme-logee-sales/dispatches --data '{"event_type": "token_build"}'
