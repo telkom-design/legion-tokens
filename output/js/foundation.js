@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 24 Jan 2022 21:09:02 GMT
+ * Generated on Mon, 24 Jan 2022 21:14:54 GMT
  */
 
 export const spacingScale = "2px";
