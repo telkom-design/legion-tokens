@@ -19,6 +19,6 @@ jobs:
       - name: Invoke workflow in another repo
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: Transform Tokens
+          workflow: .github/workflows/build-from-token.yml
           repo: fahrulseptiana/theme-logee-sales
           token: ${{ secrets.PAT_TOKEN }}
