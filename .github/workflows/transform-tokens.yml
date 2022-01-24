@@ -16,6 +16,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "build: transform tokens"
-      - name: Trigger workflow
-        run: |
-            curl -XPOST -H "Authorization: Bearer ${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.v3+json" -H "Content-Type: application/json" https://api.github.com/repos/fahrulseptiana/theme-logee-sales/actions/workflows/build-from-token/dispatches --data '{"ref": "master"}'
+      - name: Invoke workflow in another repo
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Logee Sales Theme
+          repo: fahrulseptiana/theme-logee-sales
+          token: ${{ secrets.PAT_TOKEN }}
