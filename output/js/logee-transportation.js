@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Jan 2022 00:58:42 GMT
+ * Generated on Tue, 25 Jan 2022 01:18:21 GMT
  */
 
 export const buttonsLgPaddingLeft = 16;
@@ -27,3 +27,4 @@ export const buttonsSoftActiveBackgroundColor = "#2b6cb0";
 export const buttonsSoftFocusBackgroundColor = "#4299e1";
 export const buttonsSoftDisabledBackgroundColor = "#e2e8f0";
 export const buttonsSoftDisabledColor = "#000";
+export const buttonsBorderRadius = 8;

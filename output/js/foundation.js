@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Jan 2022 00:58:42 GMT
+ * Generated on Tue, 25 Jan 2022 01:18:21 GMT
  */
 
 export const spacingScale = "2px";
@@ -17,7 +17,7 @@ export const sizingLg = "13.5px";
 export const sizingXl = "20.25px";
 export const borderRadiusSm = "4px";
 export const borderRadiusLg = "8px";
-export const borderRadiusXl = "16px";
+export const borderRadiusXl = "300px";
 export const borderWidthNone = "0px";
 export const borderWidthXs = "1px";
 export const borderWidthSm = "2px";

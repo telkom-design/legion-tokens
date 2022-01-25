@@ -1,1 +1,128 @@
-{}
+{
+  "buttons": {
+    "lg": {
+      "paddingLeft": {
+        "type": "spacing",
+        "value": 16
+      },
+      "paddingRight": {
+        "type": "spacing",
+        "value": 16
+      },
+      "paddingTop": {
+        "type": "spacing",
+        "value": 8
+      },
+      "paddingBottom": {
+        "type": "spacing",
+        "value": 8
+      },
+      "fontSize": {
+        "type": "fontSizes",
+        "value": 16
+      }
+    },
+    "sm": {
+      "paddingLeft": {
+        "type": "spacing",
+        "value": 8
+      },
+      "paddingRight": {
+        "type": "spacing",
+        "value": 8
+      },
+      "paddingTop": {
+        "type": "spacing",
+        "value": 4
+      },
+      "paddingBottom": {
+        "type": "spacing",
+        "value": 4
+      },
+      "fontSize": {
+        "type": "fontSizes",
+        "value": 13.6
+      }
+    },
+    "solid": {
+      "fontFamily": {
+        "type": "fontFamilies",
+        "value": "Roboto"
+      },
+      "backgroundColor": {
+        "type": "color",
+        "value": "#4299e1"
+      },
+      "_hover": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#3182ce"
+        }
+      },
+      "_active": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#2b6cb0"
+        }
+      },
+      "_focus": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#4299e1"
+        }
+      },
+      "_disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#e2e8f0"
+        },
+        "color": {
+          "type": "color",
+          "value": "#000"
+        }
+      }
+    },
+    "soft": {
+      "fontFamily": {
+        "type": "fontFamilies",
+        "value": "Roboto"
+      },
+      "backgroundColor": {
+        "type": "color",
+        "value": "#4299e1"
+      },
+      "_hover": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#3182ce"
+        }
+      },
+      "_active": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#2b6cb0"
+        }
+      },
+      "_focus": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#4299e1"
+        }
+      },
+      "_disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#e2e8f0"
+        },
+        "color": {
+          "type": "color",
+          "value": "#000"
+        }
+      }
+    },
+    "borderRadius": {
+      "value": 8,
+      "type": "borderRadius"
+    }
+  }
+}
