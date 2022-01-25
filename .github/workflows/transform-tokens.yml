@@ -11,6 +11,7 @@ jobs:
       - run: npm install
       - run: npx token-transformer tokens.json tokens/foundation.json foundation
       - run: npx token-transformer tokens.json tokens/logee-sales.json foundation,logee-sales foundation
+      - run: npx token-transformer tokens.json tokens/logee-transportation.json foundation,logee-transportation foundation
       - run: node build.js
       - name: Setup Node.js environment
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -21,4 +22,10 @@ jobs:
         with:
           workflow: Transform Tokens
           repo: fahrulseptiana/theme-logee-sales
+          token: ${{ secrets.PAT_TOKEN }}
+      - name: Invoke workflow in another repo
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Transform Tokens
+          repo: fahrulseptiana/theme-logee-transportation
           token: ${{ secrets.PAT_TOKEN }}
