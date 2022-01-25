@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 24 Jan 2022 21:36:59 GMT
+ * Generated on Mon, 24 Jan 2022 21:47:56 GMT
  */
 
 export const buttonsLgPaddingLeft = 16;
@@ -14,7 +14,7 @@ export const buttonsSmPaddingTop = 4;
 export const buttonsSmPaddingBottom = 4;
 export const buttonsSmFontSize = 13.6;
 export const buttonsSolidFontFamily = "Roboto";
-export const buttonsSolidBackgroundColor = "#48bb78";
+export const buttonsSolidBackgroundColor = "#f56565";
 export const buttonsSolidHoverBackgroundColor = "#3182ce";
 export const buttonsSolidActiveBackgroundColor = "#2b6cb0";
 export const buttonsSolidFocusBackgroundColor = "#4299e1";
