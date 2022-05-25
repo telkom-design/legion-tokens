@@ -1,74 +1,76 @@
 {
-  "buttons": {
+  "Buttons": {
     "lg": {
-      "paddingLeft": {
+      "paddingLeft-Right": {
         "type": "spacing",
         "value": 16
       },
-      "paddingRight": {
+      "paddingTop-Bottom": {
         "type": "spacing",
-        "value": 16
-      },
-      "paddingTop": {
-        "type": "spacing",
-        "value": 8
-      },
-      "paddingBottom": {
-        "type": "spacing",
-        "value": 8
+        "value": 12
       },
       "fontSize": {
         "type": "fontSizes",
-        "value": 16
+        "value": 18
       }
     },
     "sm": {
-      "paddingLeft": {
+      "paddingLeft-Right": {
+        "type": "spacing",
+        "value": 12
+      },
+      "paddingTop-Bottom": {
         "type": "spacing",
         "value": 8
-      },
-      "paddingRight": {
-        "type": "spacing",
-        "value": 8
-      },
-      "paddingTop": {
-        "type": "spacing",
-        "value": 4
-      },
-      "paddingBottom": {
-        "type": "spacing",
-        "value": 4
       },
       "fontSize": {
         "type": "fontSizes",
-        "value": 13.6
+        "value": 14
       }
     },
-    "solid": {
+    "Primary": {
       "fontFamily": {
         "type": "fontFamilies",
-        "value": "Roboto"
+        "value": "Nunito Sans"
       },
-      "backgroundColor": {
-        "type": "color",
-        "value": "#48bb78"
+      "_default": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#f56565"
+        },
+        "color": {
+          "value": "#ffffff",
+          "type": "color"
+        }
       },
       "_hover": {
         "backgroundColor": {
-          "type": "color",
-          "value": "#3182ce"
+          "value": "#e53e3e",
+          "type": "color"
+        },
+        "color": {
+          "value": "#ffffff",
+          "type": "color"
         }
       },
       "_active": {
         "backgroundColor": {
           "type": "color",
-          "value": "#2b6cb0"
+          "value": "#c53030"
+        },
+        "color": {
+          "value": "#ffffff",
+          "type": "color"
         }
       },
       "_focus": {
-        "backgroundColor": {
+        "backgroundColors": {
           "type": "color",
-          "value": "#4299e1"
+          "value": "#f56565"
+        },
+        "color": {
+          "value": "#ffffff",
+          "type": "color"
         }
       },
       "_disabled": {
@@ -78,35 +80,57 @@
         },
         "color": {
           "type": "color",
-          "value": "#000"
+          "value": "#a0aec0"
         }
+      },
+      "borderWidth": {
+        "value": 0,
+        "type": "borderWidth"
       }
     },
-    "soft": {
+    "Secondary": {
       "fontFamily": {
         "type": "fontFamilies",
-        "value": "Roboto"
+        "value": "Nunito Sans"
       },
-      "backgroundColor": {
-        "type": "color",
-        "value": "#4299e1"
+      "_default": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#fed7d7"
+        },
+        "color": {
+          "value": "#f56565",
+          "type": "color"
+        }
       },
       "_hover": {
         "backgroundColor": {
           "type": "color",
-          "value": "#3182ce"
+          "value": "#feb2b2"
+        },
+        "color": {
+          "value": "#e53e3e",
+          "type": "color"
         }
       },
       "_active": {
         "backgroundColor": {
           "type": "color",
-          "value": "#2b6cb0"
+          "value": "#feb2b2"
+        },
+        "color": {
+          "value": "#e53e3e",
+          "type": "color"
         }
       },
       "_focus": {
         "backgroundColor": {
           "type": "color",
-          "value": "#4299e1"
+          "value": "#fed7d7"
+        },
+        "color": {
+          "value": "#f56565",
+          "type": "color"
         }
       },
       "_disabled": {
@@ -116,13 +140,245 @@
         },
         "color": {
           "type": "color",
-          "value": "#000"
+          "value": "#a0aec0"
         }
+      },
+      "borderWidth": {
+        "value": 0,
+        "type": "borderWidth"
       }
     },
     "borderRadius": {
       "value": 8,
       "type": "borderRadius"
+    },
+    "md": {
+      "paddingLeft-Right": {
+        "value": 12,
+        "type": "spacing"
+      },
+      "paddingTop-Bottom": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSizes"
+      }
+    }
+  },
+  "Checkbox": {
+    "_default": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#cbd5e0",
+        "type": "color"
+      }
+    },
+    "_disabled": {
+      "backgroundColor": {
+        "value": "#edf2f7",
+        "type": "color"
+      },
+      "border": {
+        "value": "#cbd5e0",
+        "type": "color"
+      }
+    },
+    "_active_disable": {
+      "backgroundColor": {
+        "value": "#feb2b2",
+        "type": "color"
+      },
+      "color": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#f56565",
+        "type": "color"
+      }
+    },
+    "_active": {
+      "backgroundColor": {
+        "value": "#f56565",
+        "type": "color"
+      },
+      "color": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#e53e3e",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "value": 4,
+      "type": "borderRadius"
+    },
+    "borderWidth": {
+      "value": 1,
+      "type": "borderWidth"
+    },
+    "text": {
+      "enable": {
+        "value": "#2d3748",
+        "type": "color"
+      },
+      "disable": {
+        "value": "#a0aec0",
+        "type": "color"
+      }
+    }
+  },
+  "Radio": {
+    "borderWidth": {
+      "value": 1,
+      "type": "borderWidth"
+    },
+    "_default": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#e2e8f0",
+        "type": "color"
+      }
+    },
+    "_disable": {
+      "backgroundColor": {
+        "value": "#edf2f7",
+        "type": "color"
+      },
+      "border": {
+        "value": "#e2e8f0",
+        "type": "color"
+      }
+    },
+    "_active": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#f56565",
+        "type": "color"
+      }
+    },
+    "_active_disable": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#fc8181",
+        "type": "color"
+      }
+    },
+    "text": {
+      "enable": {
+        "value": "#2d3748",
+        "type": "color"
+      },
+      "disable": {
+        "value": "#a0aec0",
+        "type": "color"
+      }
+    }
+  },
+  "Button": {
+    "Primary": {
+      "boxShadow": {
+        "value": "[object Object],[object Object]",
+        "type": "other"
+      }
+    },
+    "Secondary": {
+      "boxShaddow": {
+        "value": "[object Object],[object Object]",
+        "type": "other"
+      }
+    }
+  },
+  "Anchor": {
+    "_default": {
+      "color": {
+        "value": "#f56565",
+        "type": "color"
+      }
+    },
+    "_hover": {
+      "color": {
+        "value": "#e53e3e",
+        "type": "color"
+      }
+    },
+    "_active": {
+      "color": {
+        "value": "#c53030",
+        "type": "color"
+      }
+    },
+    "_focus": {
+      "color": {
+        "value": "#f56565",
+        "type": "color"
+      }
+    },
+    "_disable": {
+      "color": {
+        "value": "#a0aec0",
+        "type": "color"
+      }
+    },
+    "lg": {
+      "fontSize": {
+        "value": 18,
+        "type": "fontSizes"
+      }
+    },
+    "md": {
+      "fontSize": {
+        "value": 16,
+        "type": "fontSizes"
+      }
+    },
+    "sm": {
+      "fontSize": {
+        "value": 14,
+        "type": "fontSizes"
+      }
+    }
+  },
+  "Switch": {
+    "_active": {
+      "backgroundColor": {
+        "value": "#48bb78",
+        "type": "color"
+      }
+    },
+    "_active_disable": {
+      "backgroundColor": {
+        "value": "#9ae6b4",
+        "type": "color"
+      }
+    },
+    "_nonactive": {
+      "backgroundColor": {
+        "value": "#a0aec0",
+        "type": "color"
+      }
+    },
+    "_nonactive_disable": {
+      "backgroundColor": {
+        "value": "#e2e8f0",
+        "type": "color"
+      }
     }
   }
 }
