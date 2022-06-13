@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 25 May 2022 07:33:34 GMT
+ * Generated on Mon, 13 Jun 2022 05:10:24 GMT
  */
 
 export const gray100 = "#f7fafc";
